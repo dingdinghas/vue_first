@@ -16,6 +16,7 @@
     "axios": "^0.16.2",
     "element-ui": "^2.4.1",
     "vue": "^2.5.2",
+    "echarts": "^3.8.5",
     "vue-cookie": "^1.1.4",
     "vue-router": "^3.0.1"
   },

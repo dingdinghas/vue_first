@@ -10,7 +10,7 @@ service.interceptors.request.use(config => {
   if (vueCookie.get('NToken') !== null) {
     config.headers['Authorization'] = 'Bearer ' + vueCookie.get('NToken')
   } else {
-    window.location = 'http://www.example.com:8090/recordUrl?url=www.example.com:8081'
+    window.location = 'http://sso.example.com/recordUrl?url=www.example.com:8081'
   }
   return config
 }, error => {
